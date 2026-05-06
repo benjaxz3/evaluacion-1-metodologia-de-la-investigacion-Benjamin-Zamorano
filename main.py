@@ -203,6 +203,6 @@ elif seleccion == "5. IA, Referencias y Anexos":
         """)
         
     st.divider()
-    st.subheader("📎 Material Suplementario")
+    st.subheader("Material Suplementario")
     st.info("Puedes acceder a las matrices de extracción, capturas de bases de datos, código LaTeX y registro de prompts en el siguiente repositorio:")
-    st.write("👉 **[Enlace al Repositorio de GitHub / Google Drive del Proyecto] (Reemplazar con enlace real)**")
+    st.write("https://github.com/benjaxz3/suplementario_patrones_ritmicos")
