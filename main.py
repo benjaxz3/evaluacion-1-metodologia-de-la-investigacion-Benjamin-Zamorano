@@ -182,7 +182,7 @@ elif seleccion == "4. Discusión y Vacíos":
 elif seleccion == "5. IA, Referencias y Anexos":
     st.title("Declaraciones, Referencias y Material Suplementario")
     
-    with st.expander("🤖 Declaración de Uso de IA (Cumplimiento Unidad 2)"):
+    with st.expander("🤖 Declaración de Uso de IA"):
         st.write("""
         **Herramientas utilizadas:** Gemini (Google) y NotebookLM (Google).
         * **Etapas del proceso:** Lluvia de ideas, generación de cadenas booleanas, resumen crítico de textos, estructuración de matriz y traducción de código a LaTeX/Python.
