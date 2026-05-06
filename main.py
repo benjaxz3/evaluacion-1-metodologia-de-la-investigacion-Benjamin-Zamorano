@@ -102,7 +102,7 @@ elif seleccion == "3. Resultados y Metodologías CD":
     st.subheader("Hallazgos Principales de la Revisión")
     with st.expander("📌 Ver los 5 resultados clave extraídos de la literatura", expanded=True):
         st.markdown("""
-        1. **El "Estándar de Oro" (Preprocesamiento):** Las técnicas basadas en tono no sirven para la batería. Los resultados demuestran que los **Espectrogramas de Mel y MFCC** son óptimos para capturar la "envolvente de energía" y los picos correspondientes a los golpes de percusión.
+        1. **El Preprocesamiento:** Las técnicas basadas en tono no sirven para la batería. Los resultados demuestran que los **Espectrogramas de Mel y MFCC** son óptimos para capturar la "envolvente de energía" y los picos correspondientes a los golpes de percusión.
         2. **Eficacia de ML Clásico para Micro-tiempos:** Para datos ya estructurados (como MIDI), los algoritmos clásicos son altamente efectivos. **K-NN** logró un 97% de precisión en reconocimiento de beats y fue el mejor clasificador para identificar las "huellas dactilares" de los bateristas.
         3. **Superioridad del Deep Learning para Audio Crudo:** Para el audio acústico complejo, se requieren arquitecturas profundas. Modelos híbridos (GRU + ResNet_50) alcanzaron **92.5% de precisión**, y nuevas arquitecturas (CNN + KAN) llegaron al **95.74%**.
         4. **Necesidad de Separación de Fuentes:** Antes de clasificar un ritmo desde una pista polifónica (una canción completa), es obligatorio un preprocesamiento de aislamiento. Modelos de atención en frecuencias como **CISM** demostraron ser vitales para esto.
