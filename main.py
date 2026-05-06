@@ -66,6 +66,10 @@ elif seleccion == "2. Metodología y PRISMA":
     AND 
     ("machine learning" OR "deep learning" OR "classification")
     """, language="sql")
+
+    st.code("""
+    ("music information retrieval AND machine learning") 
+    """, language="sql")
     
     st.divider()
     
